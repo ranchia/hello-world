@@ -11,4 +11,4 @@ To practise markdown too.
 [hello-world](https://ranchia.github.io/hello-world/index.html)
 
 ## Photo
-<img src="https://github.com/ranchia/hello-world/blob/master/IMG_0020.JPG" width=400 />
+<img src="./IMG_0020.JPG" width=400 />
