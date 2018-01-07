@@ -5,9 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My first blog</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.9/marked.js"></script>
+    <link rel="stylesheet" href="https://typo.sofi.sh/typo.css">
+    <style>
+        body {
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    <p>This is content.</p>
-    <p>Now you believe.</p>
+    <div id="content">
+
+    </div>
+    <script>
+        var markdown=`
+# This is my first blog
+** ranch **
+## First of all
+There is a long way to write in English.
+## Something to show
+<img src="http://www.renwen.com/photo/11/409/1140927_1402479855999767.jpg" width=600 />
+`;
+        var html=marked(markdown);
+        document.getElementById('content').innerHTML = html;
+    </script>
 </body>
 </html>
