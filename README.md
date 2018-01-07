@@ -11,4 +11,4 @@ To practise MARKDOWN.
 [hello-world](https://ranchia.github.io/hello-world/index.html)
 
 ## Photo
-![](https://github.com/ranchia/hello-world/blob/master/IMG_0126.JPG)
+<img src="https://github.com/ranchia/hello-world/blob/master/IMG_0020.JPG" width=400 />
