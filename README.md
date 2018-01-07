@@ -3,5 +3,5 @@
 ## Main purpose
 I can use this repository to practise my English writing.
 
-## How to preview
+## Preview
 https://ranchia.github.io/hello-world/index.html
