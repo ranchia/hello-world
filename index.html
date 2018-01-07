@@ -11,22 +11,26 @@
         body {
             padding: 10px;
         }
+        img {
+            max-width: 100%;
+        }
     </style>
 </head>
 <body>
     <div id="content">
-
-    </div>
-    <script>
-        var markdown=`
 # This is my first blog
 ** ranch **
+
+__Don't believe in others easily.__
 ## First of all
 There is a long way to write in English.
 ## Something to show
-<img src="http://www.renwen.com/photo/11/409/1140927_1402479855999767.jpg" width=600 />
-`;
-        var html=marked(markdown);
+<img src="http://www.renwen.com/photo/11/409/1140927_1402479855999767.jpg" width="600"/>
+    </div>
+    <script>
+        var content = document.getElementById('content');
+        var markdown = content.innerHTML;
+        var html = marked(markdown);
         document.getElementById('content').innerHTML = html;
     </script>
 </body>
