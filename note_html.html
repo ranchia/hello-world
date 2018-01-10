@@ -13,6 +13,24 @@
         img {
             max-width: 100%;
         }
+        ul, menu, dir {
+            display: block;
+            list-style-type: disc;
+            -webkit-margin-before: 1em;
+            -webkit-margin-after: 1em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            -webkit-padding-start: 40px;
+        }
+        ol {
+            display: block;
+            list-style-type: decimal;
+            -webkit-margin-before: 1em;
+            -webkit-margin-after: 1em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+            -webkit-padding-start: 40px;
+        }
     </style>
 </head>
 <body>
@@ -49,10 +67,10 @@
     </ul>
     <h2>注意事项</h2>
     <ol>
-        <li>用 ```&lt;br /&gt;``` 而不是 ```&lt;br&gt;```。</li>
+        <li>用 <code>&lt;br /&gt;</code> 而不是<code>&lt;br&gt;</code>。</li>
         <li>属性和属性值对大小写不敏感，但请使用小写属性。</li>
         <li>浏览器会自动地在标题的前后添加空行。</li>
-        <li>请确保将```HTML标题```标签只用于标题。不要仅仅是为了生成粗体或大号的文本而使用标题。</li>
+        <li>请确保将HTML标题标签只用于标题。不要仅仅是为了生成粗体或大号的文本而使用标题。</li>
     </ol>
 </body>
 </html>
