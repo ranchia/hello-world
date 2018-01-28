@@ -28,6 +28,10 @@
         #emFont {
             
         }
+        input {
+            margin: 2em;
+            display: block;
+        }
 
     </style>
 </head>
@@ -46,13 +50,16 @@
             <li>怎么令图片居中</li>
             <li>怎么令字体变<span id="redFont">红色</span></li>
             <li>怎么令字体<span id="emFont"><em>加粗</em></span></li>
-            <li>怎么加<a href="https://ranchia.github.io/hello-world/">链接</a></li>
+            <li>怎么加<a href="#myPhotoDiv">链接</a></li>
         </ol>
     </nav>
     <article>
-        <input type="email" name="yourEmail" id="yourEmail">
-        <input type="date" name="yourBirthday" id="yourBirthday">
-        <input type="button" value="summit">
+        <form>
+            <input type="email" name="yourEmail" id="yourEmail">
+            <input type="date" name="yourBirthday" id="yourBirthday">
+            <input type="checkbox" name="yourCheck" id="yourCheck">
+            <input type="button" value="summit">
+        </form>
     </article>
     <footer>
         <div id="myPhotoDiv"><img src="IMG_0020.JPG" width="400" alt="my photo"></div>
